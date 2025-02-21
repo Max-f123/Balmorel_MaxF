@@ -12,8 +12,8 @@
 **/*.gpr
 **/*.dat
 **/*.cmd
-**/data
-**/data/*.inc
+#**/data
+#**/data/*.inc
 **/model/Balmorel.l*
 **/output/economic/*.*
 /base/bui/gamsscr/*.*
@@ -29,3 +29,5 @@ base/data/README.md
 *.log~3
 build
 %batfileMERGEWITHBASE%
+*.icloud
+.DS_Store
