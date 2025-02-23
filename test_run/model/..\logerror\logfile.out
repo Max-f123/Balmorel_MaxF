@@ -1,0 +1,53 @@
+
+The model applied in the present run is  Balbase4 (BB4).
+
+The following addons are applied:
+ - *** Addon bypass not implemented for addon BB4
+ - Addon heattrans
+
+The following options (not related to addons) have the following option values:
+ - Option 'HYRSBB123'      for handling of hydro with storage when using BB3 set at: none
+ - Option 'inputdatatxt'   for printing an overview of the inputdata to file inputout.out set at:
+ - Option 'printfiles'     for printing various simulation results to folder output set at:
+ - Option 'savepointvalue' for saving a GDX file that contains the information on the current solution point set at: 0.  See balopt.opt for more information
+ - Option 'bb4weighty'     for BB4 set at: shareYYY
+
+This addon overview is under construction and therefore incomplete.
+
+* ------------------------------------------------------------------------------
+
+* ------------------------------------------------------------------------------
+Some Balmorel errors were detected in the input data before simulation.
+See the file errors.out for details about the error.
+* ------------------------------------------------------------------------------
+
+
+* ------------------------------------------------------------------------------
+
+Since BB4 is presently in developments phase, not all addons are reimplemented for this, and those that are may be only preliminary, so be careful.
+* ------------------------------------------------------------------------------
+
+Some Balmorel errors were detected in the input data before simulation. See the file errors.out.
+
+Solver status of the BALBASE4 model
+
+   3, at most, models to be solved.
+See details of input data in output\inputout\inputout.out (if associated option is set), and in particular for BB4 see output\inputout\BB4overview.out.
+
+Year    Model status returned     Solver status returned          Obj. fct. value  Iter. used  No of infeas No of nonopt
+        (Now to first SOLVE statement)
+2030    Optimal                      Normal completion             87302427451.48          40            0             0
+        Model was over years 2030
+* ------------------------------------------------------------------------------
+
+Since BB4 is presently in developments phase, not all addons are reimplemented for this, and those that are may be only preliminary, so be careful.
+* ------------------------------------------------------------------------------
+
+2040    Optimal                      Normal completion             73014363778.08          33            0             0
+        Model was over years 2040
+* ------------------------------------------------------------------------------
+
+Since BB4 is presently in developments phase, not all addons are reimplemented for this, and those that are may be only preliminary, so be careful.
+* ------------------------------------------------------------------------------
+
+2050    Optimal                      Normal completion             60401090414.91          27            0             0

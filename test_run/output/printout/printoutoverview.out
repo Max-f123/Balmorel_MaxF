@@ -1,0 +1,68 @@
+Version:              Balmorel version 5.03 (June 2024; latest 20240622)
+File name:            printoutoverview.out
+Time-stamp:          '02/19/25 15:11:53'
+Case-identification: 'Balmorel Demo-example - default CASE identification'
+
+Option PRINTFILES was not set at yes, therefore no further files will be printed.
+
+Overview of potential printout files with indication of content:
+
+Doing BB4, printing for this model is not properly developed yet, the following will be unconditionally printed
+ep_yrt.out     "Electricicy prices by Year, Regions and (S,T) (Money/Mwh)"
+ep_yr.out      "Electricicy prices by Year, Regions and year (Money/Mwh)"
+ep_yc.out      "Electricicy prices by Year, Countries and year (Money/Mwh)"
+ep_yna.out     "Electricicy prices by Year, aggregated countries and year (Money/Mwh)"
+aep_yna.out      "Averaged electricicy prices by aggregated countries and year (Money/Mwh)"
+hp_yat.out     "Heat prices by Year, Region and (S,T) (Money/Mwh)"
+hp_ya.out      "Heat prices by Year and Region (Money/Mwh)"
+hp_yc.out      "Heat prices by Year and Country (Money/Mwh)"
+hp_yna.out     "Heat prices by Year, aggregated countries (Money/Mwh)"
+gkn_yag.out    "Endogenous investments for each Area and technology, all years in all BB4 models"
+gkn_ynaf.out   "Endogenous investments for aggregated countries and fuel type, all years in all BB4 models"
+gk_yag.out     "Capacity for each Area and technology, all years in all BB4 models"
+gk_ycg.out     "Capacity for each Country and technology, all years in all BB4 models"
+gk_ynag.out    "Capacity for aggregated countries and technology, all years in all BB4 models"
+gk_ynaf.out    "Capacity for aggregated countries and fuel, all years in all BB4 models"
+eg_yat.out     "Electricicy generations by Year, Areas and (S,T) (GWh)"
+eg_yr.out      "Electricicy generations by Year, Regions (GWh)"
+eg_yc.out      "Electricicy generations by Year, Countries (GWh)"
+eg_yna.out     "Electricicy generations by Year, countries (GWh)"
+eg_ynaf.out    "Electricicy generations by Year, countries by fuel(GWh)"
+mco2_yc.out     "Annual CO2 emissions by country"
+mco2_yna.out    "Total Annual CO2 emissions(aggregated)"
+mpco2_yc.out    " CO2 shadow price by country"
+mpco2_yna.out   " CO2 shadow price (aggregated)"
+de_yc.out       " Electricity demand by Year and country"
+de_yna.out      " Electricity demand by aggregated country"
+
+The naming of the printout files is made according to the following idea:
+The first letter(s) indicate(s) the subject of the output files.
+Then there is an underscore followed by letters which indicate the level of detail.
+ C, R or A indicates the geographical level of detail.
+ Y, S or T indicates the level of time segments.
+ G indicates that information for each particular technology is available.
+ Z is used to summarise over the following letters.
+If there are no letters to identify the geographic level
+the file contains information for all countries that are simulated in Balmorel.
+If there is no letter to identify the time segments
+the file contains information for the whole time span that is simulated in Balmorel.
+
+In summary, the content of the output files are indicated by the following letters used in the file names:
+ E: Electricity
+ H: Heat
+ F: Fuels
+ M: Emissions (MCO2, MSO2 and MNOx)
+ G: Generation
+ D: Demand
+ P: Prices
+ K: Capacity
+ X: Transmission
+ O: Old (exogenously specified) plants
+ N: New plants
+ C: Country
+ R: Region
+ A: Area
+ Y: Year
+ S: Season
+ T: Time period within season
+ Z: Summation

@@ -33,3 +33,6 @@ build
 *.icloud
 .DS_Store
 !**/main_results/*.gdx
+!test_run
+!test_run/*
+!test_run/**/*

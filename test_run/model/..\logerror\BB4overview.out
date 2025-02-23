@@ -1,0 +1,19 @@
+Overview of input data characteristics of the BalBase4 model in Balmorel.   02/19/25  15:11:53
+General overview of input data may be found in inputout.out
+The information printed here is valid only if the input is consistent, please verify this, e.g. see the errors.out file first.
+
+Years to be represented in models are subsets of Y: 2030  2040  2050
+
+There is only one year in each Balbase4 model.
+
+Balbase4 model number  1 is formulated over the years: 2030
+
+Balbase4 model number  2 is formulated over the years: 2040
+
+Balbase4 model number  3 is formulated over the years: 2050
+
+There are  3 BB4 models.
+
+The model is run with endogenous investments in generation technologies.
+
+More information to be found in files logerror\logfile.out and logerror\errors.out.
