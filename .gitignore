@@ -32,4 +32,4 @@ build
 
 *.icloud
 .DS_Store
-!**/main_results/*.gdx
+!**/main_results/*/*.gdx
