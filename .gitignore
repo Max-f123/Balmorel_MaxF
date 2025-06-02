@@ -30,6 +30,9 @@ base/data/README.md
 build
 %batfileMERGEWITHBASE%
 
+Analysis/config
+master_thesis/main_results
+
 *.icloud
 .DS_Store
 !**/main_results/*/*.gdx

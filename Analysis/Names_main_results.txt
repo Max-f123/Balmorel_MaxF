@@ -1,7 +1,0 @@
-B_B : Base resolution _ Base Discount rate (4%)
-B_excel : Base resolution _ Excel country-spe Discount rate (4.33% base)
-B_HDISC : Base resolution _ High Discount rate (7%)
-LowR_B : Low resolution _ Base Discount rate (4%)
-LowR_excel : Low resolution _ Excel country-spe Discount rate (4.33% base)
-LowR_HDISC : Low resolution _ High Discount rate (7%)
-
